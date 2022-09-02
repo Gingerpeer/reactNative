@@ -33,7 +33,7 @@ const Calculator = () => {
 
       {showData && 
         <View style={styles.header}>
-        <Text style={styles.boldText}>{calorie}</Text>
+        <Text style={styles.boldTextL}>{calorie}</Text>
           <Text style={styles.boldTextL}>Calories</Text>
           <Text style={styles.boldText}>in</Text>
           <Text style={styles.boldTextL}>{kj} Kj</Text>
@@ -48,10 +48,11 @@ const Calculator = () => {
 }
 const styles = new StyleSheet.create({
  container: {
-  marginTop: 15,
+  alignItems: 'center',
+  marginTop: 0,
   backgroundColor: '#FF006E',
-  padding: 25,
-  borderRadius: 8
+  padding: 100,
+  borderRadius: 0
  },
  boldText: {
   fontWeight: 'bold',

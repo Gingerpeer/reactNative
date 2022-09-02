@@ -22,17 +22,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#8338ec',
-    alignItems: 'center',
-    // justifyContent: 'center',
-  },
-   scrollView: {
-    marginTop: 75,
-    flex: 1,
-    backgroundColor: '#000',
-    width: 350,
-    borderRadius: 5,
-    padding: 10
+    backgroundColor: '#FF006E',
     // alignItems: 'center',
     // justifyContent: 'center',
   },
