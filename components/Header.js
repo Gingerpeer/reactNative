@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
     width: "100%"
   },
   titleViewSpacing: {
-    marginTop: 50,
+    marginTop: 60,
     paddingBottom: 30
   },
   titleText: {

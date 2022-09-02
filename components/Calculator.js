@@ -78,12 +78,12 @@ const styles = new StyleSheet.create({
   width: 200,
   borderRadius: 5,
   backgroundColor: '#fff',
-  fontSize: 16,
+  fontSize: 19,
   fontWeight: 'bold'
  },
  buttonContainer: {
   backgroundColor: '#3a86ff',
-  padding: 8,
+  padding: 15,
   borderRadius: 5,
   marginTop: 12,
   marginBottom: 20,
@@ -92,7 +92,7 @@ const styles = new StyleSheet.create({
   color: 'white',
   textAlign: 'center',
   fontWeight: 'bold',
-  fontSize: 18
+  fontSize: 24
  },
  shadowProp: {
   shadowColor: '#171717',
