@@ -33,9 +33,8 @@ const Calculator = () => {
 
       {showData && 
         <View style={styles.header}>
-        <Text style={styles.boldTextL}>{calorie}</Text>
-          <Text style={styles.boldTextL}>Calories</Text>
-          <Text style={styles.boldText}>in</Text>
+        <Text style={styles.boldTextL}>{calorie} Calories</Text>
+          <Text style={styles.boldTextL}>in</Text>
           <Text style={styles.boldTextL}>{kj} Kj</Text>
         </View>
         }
@@ -68,7 +67,7 @@ const styles = new StyleSheet.create({
   justifyContent: 'center',
   textAlign: 'center',
   color: 'white',
-  fontSize: 21
+  fontSize: 21,
  },
  form: {},
  inputField: {
@@ -79,6 +78,8 @@ const styles = new StyleSheet.create({
   width: 200,
   borderRadius: 5,
   backgroundColor: '#fff',
+  fontSize: 16,
+  fontWeight: 'bold'
  },
  buttonContainer: {
   backgroundColor: '#3a86ff',
