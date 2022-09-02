@@ -23,13 +23,13 @@ const Calculator = () => {
   },[kj,calorie])
   return(
     <View style={styles.container}>
-        <Text style={styles.boldText}>Please enter KJ Amount</Text>
-        <TextInput 
+      <Text style={styles.boldText}>Please enter KJ Amount</Text> 
+         <TextInput 
           placeholder='eg. 1233kj'
           style={styles.inputField} 
           onChangeText={(val)=>setKj(val)}
           keyboardType='number-pad'
-          />
+  />
 
       {showData && 
         <View style={styles.header}>
@@ -38,9 +38,9 @@ const Calculator = () => {
           <Text style={styles.boldText}>in</Text>
           <Text style={styles.boldTextL}>{kj} Kj</Text>
         </View>
-      }
+        }
         
-        <TouchableOpacity style={styles.buttonContainer} onPress={clickHandler}>
+       <TouchableOpacity style={styles.buttonContainer} onPress={clickHandler}>
           <Text style={styles.buttonContainerText}>Convert</Text>
         </TouchableOpacity>
     </View>
@@ -59,7 +59,7 @@ const styles = new StyleSheet.create({
   justifyContent: 'center',
   textAlign: 'center',
   color: 'white',
-  fontSize: '19'
+  fontSize: 19
  },
  boldTextL: {
   fontWeight: 'bold',
@@ -67,7 +67,7 @@ const styles = new StyleSheet.create({
   justifyContent: 'center',
   textAlign: 'center',
   color: 'white',
-  fontSize: '21'
+  fontSize: 21
  },
  form: {},
  inputField: {
