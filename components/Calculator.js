@@ -16,7 +16,6 @@ const Calculator = () => {
       setShowData(true)
       calculateCalorie()
     }
-    console.log('Clicked')
   }
   useEffect(()=>{
     calculateCalorie()
