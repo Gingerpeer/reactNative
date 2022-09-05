@@ -33,7 +33,7 @@ const Calculator = () => {
 
       {showData && 
         <View style={styles.header}>
-        <Text style={styles.boldTextL}>{calorie} Calories</Text>
+        <Text style={styles.boldTextL}>{calorie} Cal</Text>
           <Text style={styles.boldTextL}>in</Text>
           <Text style={styles.boldTextL}>{kj} Kj</Text>
         </View>
