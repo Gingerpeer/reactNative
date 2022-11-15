@@ -21,6 +21,7 @@ const Calculator = () => {
     calculateCalorie()
   },[kj,calorie])
   return(
+    <View style={styles.alignMent}>
     <View style={styles.container}>
       <Text style={styles.boldText}>Please enter KJ Amount</Text> 
          <TextInput 
@@ -32,12 +33,10 @@ const Calculator = () => {
 
       {showData && 
         <View style={styles.header}>
-        <Text style={styles.boldTextL}>{calorie} Cal</Text>
-          <Text style={styles.boldTextL}>in</Text>
-          <Text style={styles.boldTextL}>{kj} Kj</Text>
+        <Text style={styles.boldTextL}>Calories {calorie}</Text>
         </View>
         }
-        
+        </View>
        <TouchableOpacity style={styles.buttonContainer} onPress={clickHandler}>
           <Text style={styles.buttonContainerText}>Convert</Text>
         </TouchableOpacity>
@@ -48,8 +47,8 @@ const styles = new StyleSheet.create({
  container: {
   alignItems: 'center',
   marginTop: 0,
-  backgroundColor: '#FF006E',
-  padding: 100,
+  backgroundColor: 'black',
+  padding: 50,
   borderRadius: 0
  },
  boldText: {
@@ -68,6 +67,11 @@ const styles = new StyleSheet.create({
   color: 'white',
   fontSize: 21,
  },
+ alignMent: {
+  alignItems: 'center',
+  // justifyContent: 'center',
+  textAlign: 'center',
+ },
  form: {},
  inputField: {
   borderWidth: 1,
@@ -81,14 +85,15 @@ const styles = new StyleSheet.create({
   fontWeight: 'bold'
  },
  buttonContainer: {
-  backgroundColor: '#3a86ff',
+  backgroundColor: '#f72585',
   padding: 15,
   borderRadius: 5,
-  marginTop: 12,
+  maxWidth: 150,
+  marginTop: 0,
   marginBottom: 20,
  },
  buttonContainerText: {
-  color: 'white',
+  color: 'cyan',
   textAlign: 'center',
   fontWeight: 'bold',
   fontSize: 24
