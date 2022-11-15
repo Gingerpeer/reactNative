@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "gingerpeer-kjtocal",
-    "slug": "gingerpeerKjToCal",
+    "name": "Calorie Converter",
+    "slug": "Calorie Converter",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
