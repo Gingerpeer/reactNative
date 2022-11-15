@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Calorie Converter",
-    "slug": "Calorie Converter",
+    "name": "gingerpeer-kjtocal",
+    "slug": "gingerpeerKjToCal",
     "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -22,7 +22,7 @@
     },
     "android": {
       "package": "com.gingerpeer.kjtocal",
-      "version": 2,
+      
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
