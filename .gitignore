@@ -13,5 +13,6 @@ web-build/
 # macOS
 .DS_Store
 
-my-upload-key.keystore
-./my-upload-key.keystore
+@gingerpeer__gingerpeerKjToCal-keystore-backup
+
+pc-api-5030931685596465424-114-55ee7066a606.json
